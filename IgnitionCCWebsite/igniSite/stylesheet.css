@@ -1,0 +1,198 @@
+#topContainer {
+  background-color: #eb5b7e;
+  color: white;
+  padding: 3% 13%;
+  text-align: center;
+}
+
+#middleContainer {
+  padding: 3% 13%;
+  text-align: center;
+}
+.igniLogo {
+  border-style: solid;
+  border-width: 0.8rem;
+  border-color: white;
+  border-radius: 100%
+}
+
+.headerText{
+  margin: 5rem 2rem 0 0;
+  font-size: 6.5rem;
+  text-align: center;
+}
+
+.subheaderText {
+  margin: 0 2rem 0 0;
+  font-size: 3.0rem;
+}
+h1 {
+  font-size: 5.62rem;
+  font-family: 'Libre Franklin Black', sans-serif;
+  font-weight: 900;
+
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Libre Franklin SemiBold', sans-serif;
+  font-weight: 600;
+
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.middleContainer {
+  margin: 50px 0 50px 0;
+}
+
+.ziggypfp {
+  width: 20%;
+  float: left;
+  margin-top: 2rem;
+  margin-right: 1.3rem;
+  margin-left: 10rem;
+}
+.introZiggy {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  width: 80%;
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top: 5rem;
+}
+
+.ziggyRow {
+  padding: 2.5rem;
+}
+
+.missionText {
+  width: 50%;
+  margin: 25px auto 25px auto;
+}
+
+.sloganText {
+  width: 50%;
+  margin: 25px auto 25px auto;
+}
+
+hr {
+  border-style: none;
+  border-color: lightgray;
+  border-top-style: solid;
+  border-width: 10px;
+  height: 0px;
+  margin: 50px auto 50px auto;
+
+  width: 5%
+}
+
+#mission {
+  background-color: #5a1843;
+  color: white;
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.missionIcons {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1.3rem;
+}
+
+.missionHeader {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+
+#slogan {
+  padding: 3% 10%
+  color: black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sloganText {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.sloganHeader{
+  margin: 5rem 2rem 0 0;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.myButton {
+	background-color:#eb5b7f;
+	border-radius:28px;
+	border:1px solid #5a1a43;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5a1a43;
+}
+.myButton:hover {
+	background-color:#5a1a43;
+  color: white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#footer {
+  background-color: #eb5b7f;
+  text-align: center;
+  color: white;
+  padding: 1% 10% 1%;
+  margin: 0 0 0 0;
+
+}
+
+.footerIcons {
+  font-size: 1rem;
+  margin: 1% 1%;
+  color: white;
+}
+
+.footerIcons:hover {
+  color: blue;
+}
+
+#contentDiverse {
+  background-color: #5a1843;
+  color: white;
+  text-align: center;
+  padding: 3% 10%;
+  margin: 0;
+}
+
+.contentHeading {
+  margin-bottom: 1.9rem;
+  font-size: 3rem;
+}
+
+.contentSubs {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.contIcons {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}

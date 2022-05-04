@@ -1,0 +1,30 @@
+body {
+  font-family: "Libre Franklin",sans-serif;
+  text-align: center;
+  background-color: #eb5b7e;
+  color: white;
+}
+
+.mainHeading {
+  font-size: 10rem;
+  font-weight: 900;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.pickImages {
+  width: 35%;
+  border-radius: 12%;
+}
+
+.pickImages:hover {
+  opacity: 50%;
+}
+
+#rlImage {
+  margin-left: 23rem;
+}
+
+#codimg {
+  margin-right: 23rem;
+}
