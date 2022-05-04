@@ -1,3 +1,45 @@
+/* ======navbar==== */
+.taskLogo{
+  width:8%;
+  float: left;
+  display: inline;
+}
+
+.taskTitle{
+  font-size: 2rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0.2rem;
+  right: 2rem;
+  margin-right: 2rem;
+  font-weight: 900;
+  font-family: "Libre Franklin Black", sans-serif;
+}
+
+.taskOptions{
+  font-size: 1rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0rem;
+  right: 2rem;
+  margin: 0 1rem;
+}
+
+.taskbarLinks{
+  text-decoration: none;
+  color: white;
+}
+
+.taskbarLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+/* =====end navbar====== */
+
+
 body {
   font-family: "Libre Franklin",sans-serif;
   text-align: center;

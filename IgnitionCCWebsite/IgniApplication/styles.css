@@ -1,0 +1,102 @@
+body {
+  font-family: "Libre Franklin", Sans-Serif;
+  text-align: center;
+}
+
+
+/* ======navbar==== */
+.taskLogo{
+  width:8%;
+  float: left;
+  display: inline;
+}
+
+.taskTitle{
+  font-size: 2rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0.2rem;
+  right: 2rem;
+  margin-right: 2rem;
+  font-weight: 900;
+  font-family: "Libre Franklin Black", sans-serif;
+}
+
+.taskOptions{
+  font-size: 1rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0rem;
+  right: 2rem;
+  margin: 0 1rem;
+}
+
+.taskbarLinks{
+  text-decoration: none;
+  color: white;
+}
+
+.taskbarLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+/* =====end navbar====== */
+
+
+#topContainer {
+  background-color: #eb5b7e;
+  color: white;
+  padding: 3% 15%;
+}
+
+.mainHeader {
+  font-size: 5rem;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.mainSubHeader {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: medium;
+  margin-bottom: 3rem;
+}
+
+.mainIcon {
+  font-size: 10rem;
+  color: white;
+  margin: 3rem 0;
+}
+
+#application{
+  background-color: white;
+  color: black;
+  padding: 3% 15%;
+  margin-top: 3rem;
+}
+
+.applicationTitle {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.applicationForm{
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+.cardForm{
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: black;
+  color: white;
+  background-color:  #eb5b7e;
+}
