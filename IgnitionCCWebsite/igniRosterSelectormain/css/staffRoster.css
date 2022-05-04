@@ -1,0 +1,132 @@
+/* ======navbar==== */
+.taskLogo{
+  width:8%;
+  float: left;
+  display: inline;
+}
+
+.taskTitle{
+  font-size: 2rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0.2rem;
+  right: 2rem;
+  margin-right: 2rem;
+  font-weight: 900;
+  font-family: "Libre Franklin Black", sans-serif;
+}
+
+.taskOptions{
+  font-size: 1rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0rem;
+  right: 2rem;
+  margin: 0 1rem;
+}
+
+.taskbarLinks{
+  text-decoration: none;
+  color: white;
+}
+
+.taskbarLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+/* =====end navbar====== */
+
+
+body {
+  font-family: "Libre Franklin",sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.mainHeading {
+  font-size: 10rem;
+  font-weight: 900;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  color: white;
+}
+
+#topContainer {
+  background-color: #eb5b7e;
+  margin: 0;
+  padding: 3% 15%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.playerName {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.playerPictures {
+  border-radius: 100%;
+  width: 50%;
+  margin: 2rem auto;
+
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+#roster{
+  background-color: white;
+  color: black;
+  margin-top: 6rem;
+
+}
+
+.staffCards {
+  background-color: white;
+  height: 250px;
+  width: 300px;
+  border-radius: 8%;
+  position: relative;
+  left: 50%;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: black;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+}
+
+.staffImages {
+  border-radius: 100%;
+  width: 45%;
+  margin-top: 2rem;
+}
+
+.staffNames {
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.staffRoles {
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.staffCards:hover {
+  background-color: #eb5b7e;
+  color: white;
+
+
+}
