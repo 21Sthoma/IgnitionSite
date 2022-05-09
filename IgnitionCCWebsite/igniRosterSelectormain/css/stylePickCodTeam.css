@@ -32,3 +32,17 @@ body {
   font-weight: bolder;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .mainHeading {
+  font-size: 5rem;
+}
+
+.pickImages {
+  margin-top: 15%;
+}
+.teamColorText {
+  margin-bottom: 6rem;
+}
+
+}

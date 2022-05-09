@@ -1,17 +1,92 @@
-body {
-  font-family: "Libre Franklin",sans-serif;
-  text-align: center;
+/* ======navbar==== */
+.igniBar {
+  position: absolute;
+  left: 1%;
+  right: 65%;
+  top: 1%;
+}
+
+.taskLogo {
+  width: 8%;
+  float: left;
+  display: inline-block;
+}
+
+.taskTitle {
+  font-size: 2rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0.2rem;
+  right: 2rem;
+  margin-right: 2rem;
+}
+
+.taskOptions {
+  font-size: 1rem;
+  color: white;
+  display: inline;
+  position: relative;
+  top: 0rem;
+  right: 2rem;
+  margin: 0 1rem;
+}
+
+.taskbarLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.taskbarLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+
+/* =====end navbar====== */
+/* ========== top section ================== */
+#main {
   background-color: #eb5b7e;
   color: white;
+  padding: 3% 13%;
+  text-align: center;
 }
 
 .mainHeading {
   font-size: 10rem;
-  font-weight: 900;
   margin-top: 5rem;
   margin-bottom: 4rem;
 }
 
+/* ============= end top section =============== */
+/* ================globals================= */
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  background-color: #eb5b7e;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.62rem;
+  font-family: "Libre Franklin Black", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Libre Franklin SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+
+/* ================ end globals ======================= */
+/* ============= pick your team section =============== */
 .pickImages {
   width: 35%;
   border-radius: 12%;
@@ -28,3 +103,26 @@ body {
 #codimg {
   margin-right: 23rem;
 }
+
+/* ============== end pick team section =============== */
+/* ========== start medium media query ============ */
+@media screen and (max-width: 1000px) {
+  #rlImage {
+    margin: 2.5rem 0;
+  }
+
+  #codimg {
+    margin: 2.5rem 0;
+  }
+
+  .pickImages {
+    width: 35%;
+  }
+}
+
+.taskLogo {
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+/* ========== end medium media query ============ */

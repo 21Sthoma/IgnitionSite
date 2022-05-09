@@ -8,11 +8,10 @@
 
 }
 
-
 .taskLogo{
   width:8%;
   float: left;
-  display: inline-block;
+  display: inline;
 }
 
 .taskTitle{
@@ -93,11 +92,58 @@ a:hover {
   opacity: 50%;
 }
 
-/* =============== Start medium Media query ================ */
+#roster{
+  background-color: white;
+  color: black;
+  margin-top: 6rem;
 
-@media screen and (max-width: 1000px) {
+}
+
+.staffCards {
+  background-color: white;
+  height: 250px;
+  width: 300px;
+  border-radius: 8%;
+  position: relative;
+  left: 50%;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: black;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+}
+
+.staffImages {
+  border-radius: 100%;
+  width: 45%;
+  margin-top: 2rem;
+}
+
+.staffNames {
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.staffRoles {
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.staffCards:hover {
+  background-color: #eb5b7e;
+  color: white;
+
+
+}
+
+/* ============== start medium media query ============== */
+@media screen and (max-width:1000px) {
   .mainHeading {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .taskLogo {
@@ -105,15 +151,13 @@ a:hover {
     margin-right: 3rem;
   }
 
-  .playerPictures {
-    width: 25%;
+  .staffCards {
+    position: inherit;
+
   }
 
-  .playerName {
-    margin-bottom: 1rem;
+  #roster {
+    padding: 3% 15%;
   }
 }
-
-
-
-/* ======================= end medium media query ================ */
+/* ================ end medium media query =============== */
